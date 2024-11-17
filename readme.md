@@ -86,6 +86,8 @@ Next, start the go client:
 
 ```bash
 $ cd rpc/client/ && sh assembly/linux/test.sh
+// your_version is the version of getty, current-time is the time when you compile the code.
+// please replace your_version and current-time with the real version and time.
 $ cd target/linux/rpc_client-${your-version}-${current-time}-test/ && sh bin/load_rpc_client.sh start
 ```
 
