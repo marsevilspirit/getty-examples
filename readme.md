@@ -102,7 +102,7 @@ $ cd target/darwin/rpc_server-${your-version}-${current-time}-test/ && sh bin/lo
 $ cd rpc/client/ && sh assembly/mac/test.sh
 // your_version is the version of getty, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
-cd target/darwin/rpc_client-${your-version}-${current-time}-test/ && sh bin/load_rpc_client.sh start
+$ cd target/darwin/rpc_client-${your-version}-${current-time}-test/ && sh bin/load_rpc_client.sh start
 ```
 
 ## getty example4: micro ##
