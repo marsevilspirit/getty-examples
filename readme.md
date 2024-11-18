@@ -20,7 +20,7 @@ To run the example, start the server:
 
 ```bash
 $ cd echo/tcp-echo/server/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/echo_server-${your-version}-${current-time}-test/ && sh bin/load_echo_server.sh start
 ```
@@ -29,7 +29,7 @@ Next, start the client:
 
 ```bash
 $ cd echo/tcp-echo/client/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/echo_client-${your-version}-${current-time}-test/ && sh bin/load_echo_client.sh start
 ```
@@ -45,7 +45,7 @@ To run the example, start the server:
 
 ```bash
 $ cd echo/ws-echo/server/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/echo_server-${your-version}-${current-time}-test/ && sh bin/load_echo_server.sh start
 ```
@@ -54,7 +54,7 @@ Next, start the go client:
 
 ```bash
 $ cd echo/ws-echo/client/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/echo_client-${your-version}-${current-time}-test/ && sh bin/load_echo_client.sh start
 ```
@@ -77,7 +77,7 @@ To run the example on linux, start the server:
 
 ```bash
 $ cd rpc/server/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/rpc_server-${your-version}-${current-time}-test/ && sh bin/load_rpc_server.sh start
 ```
@@ -86,7 +86,7 @@ Next, start the go client:
 
 ```bash
 $ cd rpc/client/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/rpc_client-${your-version}-${current-time}-test/ && sh bin/load_rpc_client.sh start
 ```
@@ -95,12 +95,12 @@ What's more, if you run this example on mac, the server compile command should b
 
 ```bash
 $ cd rpc/server/ && sh assembly/mac/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/darwin/rpc_server-${your-version}-${current-time}-test/ && sh bin/load_rpc_server.sh start
 
 $ cd rpc/client/ && sh assembly/mac/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/darwin/rpc_client-${your-version}-${current-time}-test/ && sh bin/load_rpc_client.sh start
 ```
@@ -114,7 +114,7 @@ To run the example on linux, start the server:
 
 ```bash
 $ cd micro/server/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/micro_server-${your-version}-${current-time}-test/ && sh bin/load_micro_server.sh start
 ```
@@ -123,7 +123,7 @@ Next, start the go client:
 
 ```bash
 $ cd micro/client/ && sh assembly/linux/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/linux/micro_client-${your-version}-${current-time}-test/ && sh bin/load_micro_client.sh start
 ```
@@ -132,12 +132,12 @@ What's more, if you run this example on mac, the server compile command should b
 
 ```bash
 $ cd micro/server/ && sh assembly/mac/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/darwin/micro_server-${your-version}-${current-time}-test/ && sh bin/load_micro_server.sh start
 
 $ cd micro/client/ && sh assembly/mac/test.sh
-// your_version is the version of getty, current-time is the time when you compile the code.
+// your_version is the version set in version.go, current-time is the time when you compile the code.
 // please replace your_version and current-time with the real version and time.
 $ cd target/darwin/micro_client-${your-version}-${current-time}-test/ && sh bin/load_micro_client.sh start
 ```
